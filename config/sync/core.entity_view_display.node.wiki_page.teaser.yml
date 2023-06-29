@@ -1,0 +1,32 @@
+uuid: 4707e1fb-e5c7-4ebe-ab8d-1e45853b82e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.wiki_page.body
+    - field.field.node.wiki_page.field_tags
+    - node.type.wiki_page
+  module:
+    - text
+    - user
+id: node.wiki_page.teaser
+targetEntityType: node
+bundle: wiki_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_tags: true

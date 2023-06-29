@@ -1,0 +1,8 @@
+uuid: 372b4585-ac72-4fa7-91f4-7d700efa52c3
+langcode: en
+status: true
+dependencies: {  }
+name: Wiki
+vid: wiki
+description: 'Wiki Articles'
+weight: 0

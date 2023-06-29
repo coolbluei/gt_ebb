@@ -1,0 +1,23 @@
+uuid: b06d1cca-5e7e-4557-8d9d-0505e46839d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nbsb_jump_link_location
+    - node.type.super_block
+  module:
+    - options
+id: node.super_block.field_nbsb_jump_link_location
+field_name: field_nbsb_jump_link_location
+entity_type: node
+bundle: super_block
+label: 'Jump link location'
+description: 'Select a location for the jump link. It can be below the teaser, as an overlay in the lower right of the image (provided an image was uploaded,) or both.'
+required: false
+translatable: false
+default_value:
+  -
+    value: bottom
+default_value_callback: ''
+settings: {  }
+field_type: list_string

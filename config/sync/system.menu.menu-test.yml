@@ -1,0 +1,8 @@
+uuid: 21fa3488-2553-49e8-95c5-dba44ad69c9c
+langcode: en
+status: true
+dependencies: {  }
+id: menu-test
+label: Test
+description: ''
+locked: false

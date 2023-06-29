@@ -149,6 +149,11 @@
         "homepage",
         "support"
       ]
-    }
+    },
+      "patches": {
+          "drupal/pathauto": {
+              "Fix for upgrade": "https://www.drupal.org/files/issues/2023-01-07/changes_PathautoNodeWebTest.php-3321168-4.patch"
+          }
+      }
   }
 }

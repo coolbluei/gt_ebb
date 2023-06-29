@@ -1,0 +1,16 @@
+uuid: 7a2a4830-e4fe-4f22-bd60-49c5f8420cfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Super Block'
+type: super_block
+description: 'Dynamic callout/highlight elements that are pulled into pages via block reference fields.'
+help: 'Enter a label into the Description field that will help you sort through your superblocks if you see them in a long list.'
+new_revision: true
+preview_mode: 1
+display_submitted: false
