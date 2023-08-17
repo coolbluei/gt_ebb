@@ -8,8 +8,75 @@ dependencies:
     - field.field.node.multipurpose_page.field_body_3
     - node.type.multipurpose_page
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          3ec78d8f-edb0-4bab-90cb-e7b5f97dde27:
+            uuid: 3ec78d8f-edb0-4bab-90cb-e7b5f97dde27
+            region: content
+            configuration:
+              id: 'field_block:node:multipurpose_page:field_body_1'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          51844640-0b9f-483c-a464-c1eba1fc34b2:
+            uuid: 51844640-0b9f-483c-a464-c1eba1fc34b2
+            region: content
+            configuration:
+              id: 'field_block:node:multipurpose_page:field_body_2'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          4f1d0b0e-7c0d-4d3a-864d-9b633954acdf:
+            uuid: 4f1d0b0e-7c0d-4d3a-864d-9b633954acdf
+            region: content
+            configuration:
+              id: 'field_block:node:multipurpose_page:field_body_3'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          40fccc8d-251a-4571-967e-b6600268ea9e:
+            uuid: 40fccc8d-251a-4571-967e-b6600268ea9e
+            region: content
+            configuration:
+              id: 'extra_field_block:node:multipurpose_page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
 id: node.multipurpose_page.default
 targetEntityType: node
 bundle: multipurpose_page
